@@ -16,3 +16,21 @@ begin
      select replicate(@star, @num)
      set @num = @num - 1
 end
+
+--
+P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+Write a query to print the pattern P(20).
+--
+
+Declare @num int = 1
+While (@num <= 20)
+begin
+   SELECT Replicate('* ', @num)
+   Set @num = @num + 1
+end
