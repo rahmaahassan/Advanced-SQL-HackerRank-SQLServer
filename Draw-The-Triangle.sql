@@ -1,4 +1,4 @@
---
+/*
 P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 * * * * * 
 * * * * 
@@ -6,7 +6,7 @@ P(R) represents a pattern drawn by Julia in R rows. The following pattern repres
 * * 
 *
 Write a query to print the pattern P(20).
---
+*/
 
 declare @star varchar(10)
 declare @num int = 20
@@ -17,7 +17,7 @@ begin
      set @num = @num - 1
 end
 
---
+/*
 P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 * 
 * * 
@@ -25,7 +25,7 @@ P(R) represents a pattern drawn by Julia in R rows. The following pattern repres
 * * * * 
 * * * * *
 Write a query to print the pattern P(20).
---
+*/
 
 Declare @num int = 1
 While (@num <= 20)
