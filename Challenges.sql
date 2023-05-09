@@ -7,7 +7,6 @@ If more than one student created the same number of challenges and the count is 
 The following tables contain challenge data:
 
 Hackers: The hacker_id is the id of the hacker, and name is the name of the hacker. 
-
 Challenges: The challenge_id is the id of the challenge, and hacker_id is the id of the student who created the challenge.
 */
 
